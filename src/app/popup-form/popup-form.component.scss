@@ -1,0 +1,19 @@
+// Container for the form to handle spacing between form fields
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; // Space between form fields
+  }
+  
+  // Center-align buttons in dialog actions
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    
+    // Ensure buttons have space between them
+    button {
+      margin: 0 8px; // Space between buttons
+    }
+  }
+  
