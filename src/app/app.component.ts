@@ -24,6 +24,7 @@ export class AppComponent {
       if (result) {
         const clientId = result.clientId;
         const documentId = result.documentId;
+
         console.log('Client Id:', clientId);
         console.log('Document Id:', documentId);
       }
