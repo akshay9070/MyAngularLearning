@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for the entire page */
+  }
+  
+  .card {
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    border-radius: 8px;
+    padding: 24px;
+    margin: 16px auto;
+    max-width: 1200px; /* Maximum width for the card */
+    background-color: white; /* White background for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    margin-bottom: 16px;
+  }
+  
+  .header-text {
+    font-size: 1.75em; /* Slightly larger text for emphasis */
+    font-weight: bold;
+    background-color: #28a745; /* Bootstrap green */
+    color: white; /* White text color for better contrast */
+    padding: 12px 16px;
+    border-radius: 6px; /* Slightly larger border-radius */
+    text-align: center;
+  }
+  
+  .form-section {
+    margin-bottom: 24px;
+  }
+  
+  .form-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 16px;
+  }
+  
+  .form-field {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa; /* Light background for form fields */
+  }
+  
+  .form-field input {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .content-sections {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 16px; /* Space between sections */
+  }
+  
+  .pppdf-container {
+    flex: 1; /* Take remaining space */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .pp-pdf {
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Larger border-radius for a smoother look */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #28a745; /* Green background for content boxes */
+    color: white; /* White text color for contrast */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .below-pppdf {
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Larger border-radius for a smoother look */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color for readability */
+    text-align: center;
+    font-weight: bold;
+    height: 300px; /* Increased height */
+  }
+  
+  .right-section {
+    flex: 0 0 20%; /* Fixed width for right section */
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between boxes */
+  }
+  
+  .dr {
+    background-color: #28a745; /* Green background */
+  }
+  
+  .additional-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e9ecef; /* Light gray background */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  .ed, .cr {
+    background-color: #e9ecef; /* Light gray background */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .content-sections {
+      flex-direction: column; /* Stack items vertically on small screens */
+    }
+  
+    .right-section {
+      flex: 1; /* Take full width */
+      width: 100%;
+    }
+  }
+  

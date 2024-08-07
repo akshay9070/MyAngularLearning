@@ -1,89 +1,28 @@
-<!-- <button mat-raised-button (click)="openDialog()">Open Form</button> -->
-<div class="card"
-  style="margin-top: 20px;height: 56%;border: 1px solid;width: 70%;margin-left: auto;margin-right: auto;">
+<button mat-raised-button (click)="openDialog()">Open Form</button>
+<div class="card">
   <div class="container">
-    <div class="row mt-2">
-      <div class="col-12" style="border: 1px solid; background-color:rgb(170, 246, 170)">
-        <!-- <div container="row"> -->
-        <div style="display: flex;justify-content: center;width:90%;">COK Details</div>
-        <!-- </div> -->
+    <div class="header">
+      <div class="header-text">COK Details</div>
+    </div>
+    <div class="form-section">
+      <div class="form-fields">
+        <div class="form-field">FN<br><input type="text"></div>
+        <div class="form-field">LN<br><input type="text"></div>
+        <div class="form-field">UN<br><input type="text"></div>
+        <div class="form-field">N<br><input type="text"></div>
+        <div class="form-field">DOB<br><input type="text"></div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12" style="border: 1px solid;height: 100px;">
-        <!-- <div container="row"> -->
-        <div class="row">
-          <div class="col-1" style="margin-top: 10px;">
-            FN<br><input type="text">
-          </div>
-          <div class="col-1" style="margin-top: 10px;"></div> <!-- Empty column for spacing -->
-          <div class="col-1" style="margin-top: 10px; ">
-            LN<br><input type="text">
-          </div>
-          <div class="col-1" style="margin-top: 10px;"></div> <!-- Empty column for spacing -->
-
-          <div class="col-1" style="margin-top: 10px; ">
-            UN<br><input type="text">
-          </div>
-          <div class="col-1" style="margin-top: 10px;"></div> <!-- Empty column for spacing -->
-
-          <div class="col-1" style="margin-top: 10px; ">
-            N<br><input type="text">
-          </div>
-
-          <div class="col-1" style="margin-top: 10px;"></div> <!-- Empty column for spacing -->
-
-          <div class="col-1" style="margin-top: 10px; ">
-            DOB<br><input type="text">
-          </div>
-        </div>
-        <!-- </div> -->
+    <div class="content-sections">
+      <div class="pppdf-container">
+        <div class="content-box pp-pdf">PPPDF</div>
+        <div class="additional-box below-pppdf">Below PPPDF</div> <!-- New box below PPPDF -->
       </div>
-
-    </div>
-
-    <div class="row mt-3">
-    
-
-
-        <div class="col-md-4 ml-2">
-          <div style="display: flex;justify-content: center;border: 1px solid; background-color:rgb(170, 246, 170)">
-            PPPDF</div>
-
-          <div style="display: flex;justify-content: center;border: 1px solid;height: 300px;">
-          </div>
-        </div>
-
-        <div class="col-md-2">
-
-        
-        <div style="border: 1px solid;background-color:rgb(170, 246, 170)">DR</div>
-
-        <!-- <div style="display: flex;justify-content: center;border: 1px solid;height: 100px;"> -->
-      </div>
-
-      <div class="col-md-2">
-
-        
-        <div style="border: 1px solid; background-color:rgb(170, 246, 170)">ED</div>
-
-        <!-- <div style="display: flex;justify-content: center;border: 1px solid;height: 100px;"> -->
-      </div>
-
-      <div class="col-md-2">
-
-        
-        <div style="border: 1px solid; background-color:rgb(170, 246, 170)">CR</div>
-
-        <!-- <div style="display: flex;justify-content: center;border: 1px solid;height: 100px;"> -->
+      <div class="right-section">
+        <div class="content-box dr">DR</div>
+        <div class="additional-box ed">ED</div>
+        <div class="additional-box cr">CR</div>
       </div>
     </div>
-
   </div>
-
-
-
-
-
-
-<!-- </div> -->
+</div>
